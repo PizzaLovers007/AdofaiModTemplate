@@ -1,5 +1,12 @@
 ﻿# ADOFAI Mod Template
 
+## IMPORTANT
+
+The project assumes that the game's installation directory is at
+`C:\Program Files (x86)\Steam\steamapps\common\A Dance of Fire and Ice`. Please
+update the references in the `.csproj` if you have the game installed in a
+different location.
+
 ## How to use this template
 
 1. Download/clone this repository.
@@ -84,6 +91,9 @@ several English and Korean speaking developers that can help you out in the
 
 ## Further reading
 
+* [dnSpy](https://github.com/dnSpy/dnSpy) - A C# code decompiler used to look at
+  the ADOFAI game code. This (or some other decompiler) is **required** to be
+  able to mod as you need to know which methods to patch.
 * [Harmony](https://harmony.pardeike.net/articles/intro.html) - The patching
   framework used by UnityModManager to run code before/after methods.
   * [Prefixing](https://harmony.pardeike.net/articles/patching-prefix.html),
